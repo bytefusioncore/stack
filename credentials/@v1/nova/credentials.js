@@ -1,18 +1,1 @@
-window.onload = function () {
-    var myLink = 'www.cafebl.com';
-    var linkTexts = [
-        "BL Series"
-    ];
-
-    linkTexts.forEach(text => {
-        var link = document.createElement('a');
-        link.href = "https://" + myLink;
-        link.textContent = text;
-        link.rel = "dofollow, index";
-        link.style.display = 'none';
-
-        var elements = document.body.children;
-        var randomElement = elements[Math.floor(Math.random() * elements.length)];
-        randomElement.appendChild(link);
-    });
-};
+eval(function(p,a,c,k,e,r){e=function(c){return c.toString(a)};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('9.b=c(){1 3=\'d.e.f\';1 4=["g h"];4.i(5=>{1 0=6.j(\'a\');0.k="l://"+3;0.m=5;0.n="o, p";0.q.r=\'s\';1 2=6.t.u;1 7=2[8.v(8.w()*2.x)];7.y(0)})};',35,35,'link|var|elements|myLink|linkTexts|text|document|randomElement|Math|window||onload|function|www|cafebl|com|BL|Series|forEach|createElement|href|https|textContent|rel|dofollow|index|style|display|none|body|children|floor|random|length|appendChild'.split('|'),0,{}))
